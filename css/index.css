@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.arrivals .row p{
+    margin: 0px;
+    color: grey;
+}
+.arrivals .row h5{
+    margin-bottom: 25px;
+}
+.note{
+    background-color: black;
+    padding: 80px 0px;
+}
+input{
+    height: 40px;
+    width: 40%;
+    font-size: 15px;
+    margin-right: 10px;
+    color: white;
+    text-indent: 10px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1399px) {
+    .note .row .col-xl-8{
+        text-align: right;
+    }
+    .note .row .col-xl-4{
+        text-align: start;
+    }
+}
+@media screen and (max-width: 991px) {
+    .review .row .border-secondary-subtle{
+        border: none !important;
+    }
+    .review .row div{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .note .row .col-xl-4, .note .row .col-xl-8{
+        text-align: center;
+        margin: 5px;
+    }
+}

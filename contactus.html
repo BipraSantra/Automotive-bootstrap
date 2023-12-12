@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- external css link  -->
+    <link rel="stylesheet" href="css/contactus.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 position-fixed top-0 start-0 end-0">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/ll.webp" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inventory.html">INVENTORY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="financing.html">FINANCING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contactus.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- banner section  -->
+          <section class="banner">
+            <div class="container py-5">
+              <h2 class="text-center fw-bold mb-5">VISIT US FOR A TEST DRIVE</h2>
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <img class="img-fluid" src="img/cr=w_600,h_300.webp" alt="">
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h5>Test any one of hundreds of vehicles on our lot!</h5>
+                    <p class="text-secondary mt-3">Our test drives are a great way to learn more about the vehicles you're interested in, learn about our financing options, and get to know us at the dealership.</p>
+                  </div>
+                  
+                </div>
+              </div>
+          </section>
+    </header>
+    <main>
+      <!-- location section  -->
+      <section class="bg-secondary-subtle">
+        <div class="row">
+          <div class="contact col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <h2 class="fw-bold mb-5">CONTACT US</h2>
+            <h4>Barchetta</h4>
+            <p class="text-secondary mt-3">1301 Newton Street, Saint Cloud, Minnesota 992002</p>
+            <p class="text-secondary">(111) 111-1111</p>
+            <h4>Time</h4>
+            <p class="text-secondary m-0">Monday - Friday: 9am - 5pm</p>
+            <p class="text-secondary m-0">Saturday: 10am - 5pm</p>
+            <p class="text-secondary m-0">Sunday: 10am - 4pm</p>
+            <button class="bg-dark text-light px-3 py-2 border-0 rounded fw-bold mt-4" data-bs-toggle="modal" data-bs-target="#getintouchModal">GET IN TOUCH !</button>
+
+        </div>
+        <div class="image col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <a href="https://maps.google.com/"><img class="img-fluid" src="img/map.jpg" alt=""></a>
+        </div>
+        </div>
+<!-- Modal -->
+<div class="modal fade" id="getintouchModal" tabindex="-1" aria-labelledby="getintouchModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Get In Touch !</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+      <!-- sign up form  -->
+      <section class="note text-light">
+        <div>
+            <h2 class="fw-bold text-center">JOIN OUR COMMUNITY</h2>
+        </div>
+        <div class="text-center mt-4">
+            <form>
+                <input type="email" placeholder="Email Address" name="email" required>
+                <button class="bg-light text-dark px-3 py-2 fw-bold border border-0 rounded" type="submit">Sign Up</button>
+                
+            </form>
+        </div>
+    </section>
+    </main>
+    <!-- footer  -->
+    <footer class="bg-dark">
+      <div class="container py-5">
+          <div class="row text-center mt-3">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <p class="text-secondary">Copyright © 2020 Barchetta - All Rights Reserved.</p>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <a class="text-decoration-none text-light fs-4" href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a class="text-decoration-none text-light fs-4" href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a class="text-decoration-none text-light fs-4" href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a class="text-decoration-none text-light fs-4" href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <p class="text-secondary">Powered by <a class="text-light text-decoration-none" href="">Bipra Santra</a></p>
+              </div>
+          </div>
+
+      </div>
+  </footer>
+
+     <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
